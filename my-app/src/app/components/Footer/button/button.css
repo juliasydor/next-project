@@ -1,0 +1,16 @@
+button{
+    border: unset;
+    transition: all .3s;
+    background: green;
+    border-radius: 20px;
+    padding: .6em 3em;
+    color: white;
+    text-decoration: none;
+    background: linear-gradient(to right,#1cbe99 0%,#05de7d 50%,#1cbe99 100%);
+    background-size: 200%;
+    cursor: pointer;
+}
+
+button:hover {
+    background-position: right center;
+}
