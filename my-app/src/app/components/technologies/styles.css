@@ -1,0 +1,215 @@
+
+
+.styled.section {
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+
+    @media (max-width: 920px) {
+        justify-content: center;
+}
+}
+
+.styledContainer {
+    padding-bottom: 45px;
+    position: relative;
+}
+
+.styledShape {
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: relative;
+    position: absolute;
+    margin: 0 auto;
+    bottom: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+    z-index: 5;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+    transition: all .3s linear;
+}
+
+.styledShape::before{
+        content: '';
+        width: 14px;
+        height: 14px;
+        border: 3px solid #05de7d;
+        border-radius: 50%;
+        transition: all .3s linear;
+        position: absolute;
+        top: 7px;
+        left: 5px;
+        -webkit-transition: all .3s linear;
+        -moz-transition: all .3s linear;
+        -ms-transition: all .3s linear;
+        -o-transition: all .3s linear;
+}
+
+
+.styledContent {
+    display: flex;
+    padding-top: 10px;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.styledSeparator {
+    width: 100%;
+    height: 1px;
+    background-color: #ededed;
+    position: relative;
+    position: absolute;
+    bottom: 15px;
+    left: 0; 
+}
+.styledSeparator::before{
+        position: absolute;
+        content: '';
+        width: 0;
+        height: 100%;
+        background-color: #05de7d;
+        top: 0;
+        left: 0;
+        -webkit-transition: all .3s linear;
+        -moz-transition: all .3s linear;
+        -ms-transition: all .3s linear;
+        -o-transition: all .3s linear;
+        transition: all .3s linear;
+    }
+
+
+.styledLogo {
+    background: green;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    /* background: ${props =>{
+        switch(props.color){
+            case 'green':
+                return 'linear-gradient(to right,#1cbe99 0%,#05de7d 100%)';
+            case 'pink':
+                return 'linear-gradient(#700feb 0%,#fe7687 100%)';
+            
+            case 'blue':
+                return 'linear-gradient(185deg,#3e2cea 0%,#4bb3f9 100%)';
+        }
+    }};
+    &::before{
+        content: "";
+    } */
+}
+
+/* Definir o estilo do elemento com base na prop "color" */
+.styledLogo {
+    background: linear-gradient(to right, #1cbe99 0%, #05de7d 100%); /* Valor padrão */
+  }
+
+.styledLogo::before {
+    content: "";
+  }
+  
+  /* Definir o estilo do elemento quando a prop "color" for "green" */
+.styledLogo[data-color="green"] {
+    background: linear-gradient(to right, #1cbe99 0%, #05de7d 100%);
+  }
+  
+  /* Definir o estilo do elemento quando a prop "color" for "pink" */
+.styledLogo[data-color="pink"] {
+    background: linear-gradient(#700feb 0%, #fe7687 100%);
+  }
+  
+  /* Definir o estilo do elemento quando a prop "color" for "blue" */
+.styledLogo[data-color="blue"] {
+    background: linear-gradient(185deg, #3e2cea 0%, #4bb3f9 100%);
+  }
+  
+
+.styledText {
+    width: 50%;
+    text-align: justify;
+}
+.styledText h5{
+    font-size: 1.1rem;
+    font-weight: 1000;
+}
+.styledText p{
+    color: darkgray;
+}
+
+
+.styledTech {
+    
+    max-width: 33.33333%;
+    /* &:hover ${StyledSeparator}{
+        background-color: #05de7d;
+    }
+    &:hover ${StyledShape}{
+        ::before{
+            background-color: #05de7d;
+        }
+    }
+    @media (max-width: 920px) {
+        max-width: 100%;
+    } */
+}
+
+/* Definir o estilo do elemento */
+.styledTech {
+    /* Definir a largura máxima */
+    max-width: 33.33333%;
+  }
+  
+  /* Definir o estilo do elemento quando o cursor está sobre ele */
+  .styledTech:hover .styledSeparator {
+    background-color: #05de7d;
+  }
+  
+  /* Definir o estilo do pseudo-elemento "before" do "shape" quando o cursor está sobre o elemento */
+  .styledTech:hover .styledShape::before {
+    background-color: #05de7d;
+  }
+  
+  /* Definir o estilo do elemento quando a largura da tela é menor ou igual a 920px */
+  @media (max-width: 920px) {
+    .styledTech {
+      max-width: 100%;
+    }
+  }
+  
+
+
+.styledTechTwo {
+    margin-top: 128px;
+    padding-top: 26.7px;
+        @media (max-width: 920px) {
+        margin-top: 0;
+    }
+}
+
+.styledSeparatorTwo {
+    top: 15px;
+    @media (max-width: 920px) {
+        top: unset;
+        bottom: 15px;
+    }
+}
+
+.styledShapeTwo {
+    top: 0;
+    @media (max-width: 920px) {
+        top: unset;
+        bottom: 0;
+    }
+}

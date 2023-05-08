@@ -1,0 +1,49 @@
+
+.StyledHeader  {
+    transition: all ease-in .4s;
+    position: sticky;
+    top: 0;
+    background: yellow;
+    box-shadow: 0 20px 50px 0 rgba(0,0,0,.05); 
+}
+    nav{
+        display: flex;
+        max-width: 80%;
+        margin: 0 auto;
+        justify-content: space-between;
+        align-items: center;
+    }
+    ul{
+        display: flex;
+        list-style-type:none;
+        justify-content: space-around;
+        gap: 20px;
+    }
+    button{
+        border: unset;
+        transition: all .3s;
+        background: green;
+        border-radius: 20px;
+        padding: .6em 3em;
+        color: white;
+        text-decoration: none;
+        background: linear-gradient(to right,#1cbe99 0%,#05de7d 50%,#1cbe99 100%);
+        background-size: 200%;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-position: right center;
+    }
+
+    a{
+        color: #fff;
+        font-weight: 1000;
+        text-decoration: none;
+    }
+
+
+.styledHero {
+    height: 90vh;
+    background: rgb(179, 176, 176);
+}
