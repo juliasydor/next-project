@@ -1,0 +1,21 @@
+.styledMain {
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    height: auto;
+}
+
+.styledImg {
+    width: 50%;
+}
+
+.styledContent {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.styledCounterContainer {
+    display: flex;
+    flex-direction: row;
+}

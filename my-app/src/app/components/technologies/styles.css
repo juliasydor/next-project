@@ -123,16 +123,19 @@
   /* Definir o estilo do elemento quando a prop "color" for "green" */
 .styledLogo[data-color="green"] {
     background: linear-gradient(to right, #1cbe99 0%, #05de7d 100%);
+    z-index: 0;
   }
   
   /* Definir o estilo do elemento quando a prop "color" for "pink" */
 .styledLogo[data-color="pink"] {
     background: linear-gradient(#700feb 0%, #fe7687 100%);
+    z-index: 0;
   }
   
   /* Definir o estilo do elemento quando a prop "color" for "blue" */
 .styledLogo[data-color="blue"] {
     background: linear-gradient(185deg, #3e2cea 0%, #4bb3f9 100%);
+    z-index: 0;
   }
   
 
