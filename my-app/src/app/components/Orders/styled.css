@@ -1,0 +1,22 @@
+.styledArticle {
+    height: auto;
+    border: 1px solid  black;
+}
+
+.styledSectionContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.styledSectionContainer button {
+    width: 20%;
+}
+
+.styledSectionContainer textarea {
+    width: 40%;
+    resize: none;
+}
+
+.styledSectionContainer input {
+    width: 40%;
+}

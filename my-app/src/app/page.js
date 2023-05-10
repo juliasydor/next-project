@@ -5,6 +5,7 @@ import Technologies from './components/technologies'
 import Footer from './components/Footer'
 import MainCount from './components/mainCount';
 import Projects from './components/portifolio'
+import Orders from './components/Orders'
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -16,6 +17,7 @@ export default function Home() {
       <Technologies/>
       <MainCount />
       <Projects />
+      <Orders />
       <Footer/>
   </>
   )
