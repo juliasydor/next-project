@@ -1,8 +1,19 @@
 .styledMain {
-    background-color: aquamarine;
-    display: flex;
-    flex-direction: row;
+    background: linear-gradient(to right,#1cbe99 0%,#05de7d 50%,#1cbe99 100%);
+    text-align: center;
     height: auto;
+}
+
+span {
+    font-weight: bolder;
+}
+
+.styledMain p {
+    font-size: 25px;
+}
+
+#styledContext {
+    font-size: 18px;
 }
 
 .styledImg {
@@ -12,10 +23,15 @@
 .styledContent {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 40%;
+    color: rgb(10, 10, 10);
+
 }
 
 .styledCounterContainer {
+    font-weight: bolder;
+    font-size: 90px;
     display: flex;
     flex-direction: row;
+    color: aliceblue;
 }

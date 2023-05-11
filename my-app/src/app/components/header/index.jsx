@@ -23,7 +23,7 @@ const header = () => {
       <div className="styledHeader">
 
         <nav>
-          <div>logo</div>
+          <img src="/technology.png" alt="logo" className="myImage"/>
           <ul>
             <li>Home</li>
             <li>Projetos</li>

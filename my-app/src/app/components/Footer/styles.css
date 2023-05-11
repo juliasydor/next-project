@@ -1,6 +1,7 @@
 
 .styledFooter {
-    margin: 15px;
+    margin: 20px 0px 0px 0px;
+    background: rgb(18, 53, 168);
 }
 
 .styledContainer {
@@ -11,14 +12,32 @@
 
 .styledSocialMedia {
     width: 40%;
+    color: white;
+}
+
+.styledSocialMedia li{
+    margin-top: 20px;
 }
 
 .styledContacts {
     width: 40%;
 }
 
+.styledContacts h2 {
+    color: white;
+}
+
+.styledContacts ul {
+    color: white;
+    display: block;
+}
+
+.styledContacts li {
+    margin: 20px 0px 0px 0px;
+}
+
 .styledCredits {
-    border-top: 1px solid rgba(169, 169, 169, 0.61);
+    border-top: 1px solid rgba(0, 0, 0, 0.603);
     display: flex;
     flex-direction: row;
     justify-content: space-around;

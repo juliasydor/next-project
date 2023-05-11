@@ -1,6 +1,6 @@
 'use client'
 import { useState, useEffect } from 'react';
-import { FiArrowUp } from 'react-icons/fi';
+import { FiArrowUp } from 'react-icons/fi'
 import css from './button.css'
 
 function ScrollToTopButton() {

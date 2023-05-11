@@ -1,22 +1,49 @@
 .styledArticle {
     height: auto;
-    border: 1px solid  black;
+    text-align: center;
+    border-top: 1px solid #05de7c8c;
+    margin-top: 20px;
 }
 
 .styledSectionContainer {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    margin: 0% 0% 0% 12.5%;
+    width: 60%;
+    height: 60vh;
 }
 
 .styledSectionContainer button {
     width: 20%;
+    margin: 5px 0px 10px 0px;
 }
 
 .styledSectionContainer textarea {
     width: 40%;
     resize: none;
+    margin: 5px 0px 5px 0px;
+    border-radius: 5px;
+    border: 1px solid #05de7d;
+}
+
+.styledSectionContainer textarea:hover {
+    background-color: rgba(54, 63, 63, 0.219);
 }
 
 .styledSectionContainer input {
     width: 40%;
+    border-radius: 5px;
+    border: 1px solid #05de7d;
+
+}
+
+.styledSectionContainer input:hover {
+    background-color: rgba(54, 63, 63, 0.219);
+}
+
+.styledSpan {
+    color: #05de7d;
+    font-weight: bolder;
+    font-size: 35px;
 }

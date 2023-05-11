@@ -1,5 +1,4 @@
 
-
 .styled.section {
     max-width: 90%;
     margin: 0 auto;
@@ -173,14 +172,27 @@
     /* Definir a largura máxima */
     max-width: 33.33333%;
   }
+
+  .styledTechTwo {
+    /* Definir a largura máxima */
+    max-width: 33.33333%;
+  }
   
   /* Definir o estilo do elemento quando o cursor está sobre ele */
   .styledTech:hover .styledSeparator {
     background-color: #05de7d;
   }
+
+  .styledTechTwo:hover .styledSeparator {
+    background-color: #05de7d;
+  }
   
   /* Definir o estilo do pseudo-elemento "before" do "shape" quando o cursor está sobre o elemento */
   .styledTech:hover .styledShape::before {
+    background-color: #05de7d;
+  }
+
+  .styledTechTwo:hover .styledShape::before {
     background-color: #05de7d;
   }
   
@@ -215,4 +227,69 @@
         top: unset;
         bottom: 0;
     }
+}
+
+.styledShapeTwo {
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: relative;
+    position: absolute;
+    margin: 0 auto;
+    bottom: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+    z-index: 5;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+    transition: all .3s linear;
+}
+
+.styledShapeTwo::before{
+    content: '';
+    width: 14px;
+    height: 14px;
+    border: 3px solid #05de7d;
+    border-radius: 50%;
+    transition: all .3s linear;
+    position: absolute;
+    top: 7px;
+    left: 5px;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+}
+
+.styledSeparatorTwo {
+    width: 100%;
+    height: 1px;
+    background-color: #ededed;
+    position: relative;
+    position: absolute;
+    bottom: 15px;
+    left: 0; 
+}
+
+.styledShapeTwo::before{
+    content: '';
+    width: 14px;
+    height: 14px;
+    border: 3px solid #05de7d;
+    border-radius: 50%;
+    transition: all .3s linear;
+    position: absolute;
+    top: 7px;
+    left: 5px;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
 }

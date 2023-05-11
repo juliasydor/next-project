@@ -3,7 +3,6 @@ import { AiFillInstagram } from 'react-icons/ai'
 import { BsTwitter } from 'react-icons/bs'
 import { IoLogoWhatsapp } from 'react-icons/io'
 import { ImLinkedin } from 'react-icons/im'
-import { AiOutlineArrowUp } from 'react-icons/ai'
 import css from './styles.css'
 import ScrollToTopButton from './button/button'
 
@@ -18,16 +17,16 @@ const Footer = () => {
                     <h2>social medias</h2>
                     <ul>
                         <li>
-                            <AiFillInstagram size={25}/>
+                            <AiFillInstagram size={25} color='#1cbe99'/>
                         </li>
                         <li>
-                            <BsTwitter size={25}/>
+                            <BsTwitter size={25} color='#1cbe99'/>
                         </li>
                         <li>
-                            <IoLogoWhatsapp size={25}/>
+                            <IoLogoWhatsapp size={25} color='#1cbe99'/>
                         </li>
                         <li>
-                            <ImLinkedin size={25}/>
+                            <ImLinkedin size={25} color='#1cbe99'/>
                         </li>
                     </ul>
                 </section>
