@@ -1,4 +1,4 @@
-"use client";
+'use client'
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import css from "./styles.css";
@@ -21,9 +21,8 @@ const header = () => {
   return (
     <>
       <div className="styledHeader">
-
         <nav>
-          <img src="/technology.png" alt="logo" className="myImage"/>
+          <div>logo</div>
           <ul>
             <li>Home</li>
             <li>Projetos</li>
@@ -36,7 +35,14 @@ const header = () => {
         </nav>
       </div>
 
-      <div className="styledHero">
+      <div className="styledHero" style={{
+        backgroundImage: `url('/background.png')`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        width: '100%',
+        height: '100vh'
+      }}>
+
       <div className="container">
           <h1>Está procurando um site com design moderno e completo?</h1>
           <h2>Aqui na Woodev temos o que você está procurando! Sites de todos os conteúdos e todos os preços</h2>
