@@ -1,7 +1,9 @@
 .styledMain {
     background: linear-gradient(to right,#1cbe99 0%,#05de7d 50%,#1cbe99 100%);
     text-align: center;
-    height: auto;
+    height: 100vh;
+    display: flex;
+    align-items: center;
 }
 
 span {
@@ -21,9 +23,13 @@ span {
     display: flex;
     flex-direction: column;
     width: 40%;
-    color: rgb(10, 10, 10);
+    color: white;
     margin: 0px 100px 0px 0px;
 
+}
+
+#styledContext {
+    color: darkgray;
 }
 
 .styledCounterContainer {

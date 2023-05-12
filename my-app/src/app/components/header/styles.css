@@ -5,54 +5,67 @@
 
 .styledHeader  {
     transition: all ease-in .4s;
-    position: sticky;
+    position: fixed;
     top: 0;
+    left: 0;
+    width: 100%;
     box-shadow: 0 20px 50px 0 rgba(0,0,0,.05); 
     z-index: 1;
-     background-color: white;
+    background: transparent;
 
 }
 
-.styledHeader img {
-    width: 20%;
-
+nav{
+    display: flex;
+    max-width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
 }
-    nav{
-        display: flex;
-        max-width: 80%;
-        margin: 0 auto;
-        justify-content: space-between;
-        align-items: center;
-    }
-    ul{
-        display: flex;
-        list-style-type:none;
-        justify-content: space-around;
-        gap: 20px;
-    }
-    button{
-        border: unset;
-        transition: all .3s;
-        background: green;
-        border-radius: 20px;
-        padding: .6em 3em;
-        color: white;
-        text-decoration: none;
-        background: linear-gradient(to right,#1cbe99 0%,#05de7d 50%,#1cbe99 100%);
-        background-size: 200%;
-        cursor: pointer;
-    }
+ul{
+    display: flex;
+    list-style-type:none;
+    justify-content: space-around;
+    gap: 20px;
+}
 
-    button:hover {
-        background-position: right center;
-    }
+button {
+    border: unset;
+    transition: all .3s;
+    background: green;
+    border-radius: 20px;
+    padding: .6em 3em;
+    color: white;
+    text-decoration: none;
+    background: linear-gradient(to right,#1cbe99 0%,#05de7d 50%,#1cbe99 100%);
+    background-size: 200%;
+    cursor: pointer;
+}
 
-    a{
-        color: #fff;
-        font-weight: 1000;
-        text-decoration: none;
-    }
+button:hover {
+    background-position: right center;
+}
 
+a{
+    color: #fff;
+    font-weight: 1000;
+    text-decoration: none;
+}
+
+
+.styledHero button {
+    border: unset;
+    transition: all .3s;
+    background: green;
+    border-radius: 20px;
+    padding: .6em 3em;
+    color: white;
+    text-decoration: none;
+    background: linear-gradient(to right,#1cbe99 0%,#05de7d 50%,#1cbe99 100%);
+    background-size: 200%;
+    cursor: pointer;
+    width: 50%;
+}
 
 .styledHero {
     height: 90vh;

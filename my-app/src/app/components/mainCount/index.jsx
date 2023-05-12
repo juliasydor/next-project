@@ -16,12 +16,18 @@ useEffect(() => {
 }, []);
 
     return (
-        <main className='styledMain'>
+        <main className='styledMain' style={{
+            backgroundImage: `url('/background2.png')`,
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            width: '100%',
+            height: '100vh'
+          }}>
             <div className='styledContainer'>
             <LottieAnimationDev />
                 <div className='styledContent'> 
                     <h1>Our industry</h1>
-                    <p id='styledContext'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio aspernatur exercitationem quas numquam voluptatibus, praesentium earum fugiat sit ea blanditiis mollitia totam beatae quis architecto recusandae quam tempore reiciendis itaque. Lorem ipsum, dolor sit amet consectetur adipisicing elit. issimos quam, vero corporis unde similique iure ex error consequuntur.</p>
+                    <p id='styledContext'>Lorem ipsum dolor sit amet consectetur adipisicr sit amet consectetur adipisicing elit. issimos quam, vero corporis unde similique iure ex error consequuntur.</p>
                     <div className='styledCounterContainer'>
                         <motion.div className='styledCounter'>{rounded}</motion.div> <span>+</span>
                         

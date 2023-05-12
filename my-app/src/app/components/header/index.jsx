@@ -19,8 +19,14 @@ const header = () => {
   }, []);
 
   return (
-    <>
-      <div className="styledHeader">
+    <div className="styledHeaderContainer" style={{
+      backgroundImage: `url('/background.png')`,
+      backgroundSize: 'cover',
+      backgroundPosition: 'center',
+      width: '100%',
+      height: '100vh'
+    }}>
+      <div className={`styledHeader ${active ? 'active' : ''}`}>
         <nav>
           <div>logo</div>
           <ul>
@@ -35,13 +41,7 @@ const header = () => {
         </nav>
       </div>
 
-      <div className="styledHero" style={{
-        backgroundImage: `url('/background.png')`,
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        width: '100%',
-        height: '100vh'
-      }}>
+      <div className="styledHero">
 
       <div className="container">
           <h1>Está procurando um site com design moderno e completo?</h1>
@@ -51,7 +51,7 @@ const header = () => {
 
         <img src="/ilustration.png" alt="ilustração" />
       </div>
-    </>
+    </div>
   );
 };
 

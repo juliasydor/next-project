@@ -23,7 +23,7 @@ const LottieAnimationDev = () => {
   return (
     <motion.div
       ref={containerRef}
-      animate={{ scale: 0.6 }}
+      animate={{ scale: 0.5 }}
       transition={{ duration: 0.5, yoyo: Infinity }}
     />
   );
