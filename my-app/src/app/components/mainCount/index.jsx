@@ -1,5 +1,6 @@
 'use client'
 import React from 'react';
+import LottieAnimationDev from './lottie'
 import './styles.css';
 import { motion, useMotionValue, useTransform, animate } from "framer-motion";
 import { useEffect } from "react";
@@ -16,10 +17,8 @@ useEffect(() => {
 
     return (
         <main className='styledMain'>
-            <h1>bem vindo</h1>
-            <p><span>Saiba</span> mais sobre nós </p>
             <div className='styledContainer'>
-            <img src="/ilustration.png" alt="ilustração" />
+            <LottieAnimationDev />
                 <div className='styledContent'> 
                     <h1>Our industry</h1>
                     <p id='styledContext'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio aspernatur exercitationem quas numquam voluptatibus, praesentium earum fugiat sit ea blanditiis mollitia totam beatae quis architecto recusandae quam tempore reiciendis itaque. Lorem ipsum, dolor sit amet consectetur adipisicing elit. issimos quam, vero corporis unde similique iure ex error consequuntur.</p>

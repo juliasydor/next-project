@@ -3,24 +3,27 @@
     text-align: center;
     border-top: 1px solid #05de7c8c;
     margin-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
 }
 
 .styledSectionContainer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0% 0% 0% 12.5%;
-    width: 60%;
+    margin: 0% 0% 0% 7.5%;
+    width: 100%;
     height: 60vh;
 }
 
 .styledSectionContainer button {
-    width: 20%;
+    width: 30%;
     margin: 5px 0px 10px 0px;
 }
 
 .styledSectionContainer textarea {
-    width: 40%;
+    width: 60%;
     resize: none;
     margin: 5px 0px 5px 0px;
     border-radius: 5px;
@@ -32,7 +35,7 @@
 }
 
 .styledSectionContainer input {
-    width: 40%;
+    width: 60%;
     border-radius: 5px;
     border: 1px solid #05de7d;
 

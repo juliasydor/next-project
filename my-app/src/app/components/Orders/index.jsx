@@ -1,3 +1,4 @@
+import LottieAnimation from './lottie'
 import css from './styled.css'
 
 const Orders = () => {
@@ -9,6 +10,7 @@ const Orders = () => {
                 <textarea name="email" id="" cols="30" rows="10" placeholder='Digite aqui seu projeto ou solicite um orçamento'></textarea>
                 <button>enviar</button>
             </section>
+            <LottieAnimation />
         </article>
     )
 }
