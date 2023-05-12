@@ -100,3 +100,17 @@ a{
     width: 25px;
     height: 100px;
 }
+
+@media (max-width: 920px) {
+    img {
+        display: none;
+    }
+
+    .container {
+        width: 70%;
+    }
+
+    .container h1 {
+        font-size: 35px;
+    }
+}
