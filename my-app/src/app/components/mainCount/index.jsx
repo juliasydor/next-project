@@ -25,7 +25,7 @@ useEffect(() => {
           }}>
             <div className='styledContainer'>
             <LottieAnimationDev />
-                <div className='styledContent'> 
+                <div className='styledLottie'> 
                     <h1>Our industry</h1>
                     <p id='styledContext'>Lorem ipsum dolor sit amet consectetur adipisicr sit amet consectetur adipisicing elit. issimos quam, vero corporis unde similique iure ex error consequuntur.</p>
                     <div className='styledCounterContainer'>

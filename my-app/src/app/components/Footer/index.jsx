@@ -1,4 +1,4 @@
-'use client'
+
 import { AiFillInstagram } from 'react-icons/ai'
 import { BsTwitter } from 'react-icons/bs'
 import { IoLogoWhatsapp } from 'react-icons/io'
