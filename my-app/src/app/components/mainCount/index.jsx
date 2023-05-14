@@ -1,19 +1,24 @@
 'use client'
-import React from 'react';
+import React, { useRef } from 'react';
 import LottieAnimationDev from './lottie'
 import './styles.css';
-import { motion, useMotionValue, useTransform, animate } from "framer-motion";
+import { motion, useMotionValue, useTransform, animate, useInView } from "framer-motion";
 import { useEffect } from "react";
 
+
 const MainCount = () => {
-    const count = useMotionValue(0);
+const count = useMotionValue(0);
 const rounded = useTransform(count, Math.round);
+const ref = useRef(null)
+const isInView = useInView(ref)
 
 useEffect(() => {
-  const animation = animate(count, 100, { duration: 10 });
-
+  if(isInView){
+  const animation = animate(count, 100, { duration: 6 });
   return animation.stop;
-}, []);
+    }
+
+}, [isInView]);
 
     return (
         <main className='styledMain' style={{
@@ -29,7 +34,7 @@ useEffect(() => {
                     <h1>Our industry</h1>
                     <p id='styledContext'>Lorem ipsum dolor sit amet consectetur adipisicr sit amet consectetur adipisicing elit. issimos quam, vero corporis unde similique iure ex error consequuntur.</p>
                     <div className='styledCounterContainer'>
-                        <motion.div className='styledCounter'>{rounded}</motion.div> <span>+</span>
+                        <motion.div ref={ref} className='styledCounter'>{rounded}</motion.div> <span>+</span>
                         
                         <motion.div className='styledCounter'>{rounded}</motion.div> <span>+</span>
                         
