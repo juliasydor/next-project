@@ -33,7 +33,7 @@ const header = () => {
             <li>Home</li>
             <li>Projetos</li>
             <li>Sobre</li>
-            <li>Portfolio</li>
+            <a href="#styledCard">Portfolio</a>
           </ul>
           <button>
             <Link href="/contact">Contato</Link>

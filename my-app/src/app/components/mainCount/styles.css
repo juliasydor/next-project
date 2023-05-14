@@ -19,13 +19,16 @@ span {
 }
 
 
-.styledContent {
+.styledLottie {
     display: flex;
     flex-direction: column;
     width: 40%;
     color: white;
     margin: 0px 100px 0px 0px;
-
+    padding-top: 10px;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
 }
 
 #styledContext {
