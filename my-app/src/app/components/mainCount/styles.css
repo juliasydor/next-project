@@ -1,4 +1,4 @@
-.styledMain {
+#styledMain {
     background: linear-gradient(to right,#1cbe99 0%,#05de7d 50%,#1cbe99 100%);
     text-align: center;
     height: 100vh;
@@ -10,7 +10,7 @@ span {
     font-weight: bolder;
 }
 
-.styledMain p {
+#styledMain p {
     font-size: 25px;
 }
 

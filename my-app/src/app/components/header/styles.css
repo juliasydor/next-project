@@ -1,3 +1,24 @@
+.styledHeaderContainer {
+    width: 100%;
+    height: 50vw;
+    background: linear-gradient(334deg, #08f78b, rgb(39, 28, 196), #08f78b);
+    background-size: 180% 180%;
+    animation: gradient-animation 6s ease infinite;
+}
+    
+
+@keyframes gradient-animation {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
 * {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     letter-spacing: 0.6px;
@@ -13,9 +34,10 @@
     z-index: 1;
     background: transparent;
     color: #fff;
+
 }
 
-.active {
+.active .styledLinkHeader {
     color: black;
 }
 
@@ -57,7 +79,7 @@ a{
 }
 
 
-.styledHero button {
+#styledHero button {
     border: unset;
     transition: all .3s;
     background: green;
@@ -71,7 +93,7 @@ a{
     width: 50%;
 }
 
-.styledHero {
+#styledHero {
     height: 90vh;
     display: flex;
     flex-direction: row;

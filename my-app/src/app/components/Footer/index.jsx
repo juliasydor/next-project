@@ -1,6 +1,5 @@
 
 import { AiFillInstagram } from 'react-icons/ai'
-import { BsTwitter } from 'react-icons/bs'
 import { IoLogoWhatsapp } from 'react-icons/io'
 import { ImLinkedin } from 'react-icons/im'
 import css from './styles.css'
@@ -19,9 +18,6 @@ const Footer = () => {
                     <ul>
                         <li>
                             <AiFillInstagram size={25} className='icons'/>
-                        </li>
-                        <li>
-                            <BsTwitter size={25} className='icons'/>
                         </li>
                         <li>
                             <IoLogoWhatsapp size={25} className='icons'/>

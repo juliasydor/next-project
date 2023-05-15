@@ -1,0 +1,18 @@
+#styledSocialContacts {
+    -webkit-box-shadow: 4px -5px 21px -14px rgba(0,0,0,0.69);
+    -moz-box-shadow: 4px -5px 21px -14px rgba(0,0,0,0.69);
+    box-shadow: 4px -5px 21px -14px rgba(0,0,0,0.69);
+    text-align: center;
+    margin-top: 20px;
+}
+
+#styledSocialContacts span {
+    color: #05de7d;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.styledSocialContactsContainer {
+    font-size: 30px;
+}
+

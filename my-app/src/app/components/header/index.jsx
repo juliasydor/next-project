@@ -3,6 +3,10 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import css from "./styles.css";
 
+
+
+
+
 const header = () => {
   const [active, setActive] = useState(false);
 
@@ -19,21 +23,15 @@ const header = () => {
   }, []);
 
   return (
-    <div className="styledHeaderContainer" style={{
-      backgroundImage: `url('/background.png')`,
-      backgroundSize: 'cover',
-      backgroundPosition: 'center',
-      width: '100%',
-      height: '100vh'
-    }}>
+    <div className="styledHeaderContainer">
       <div className={`styledHeader ${active ? 'active' : ''}`}>
         <nav>
           <div>logo</div>
           <ul>
-            <li>Home</li>
-            <li>Projetos</li>
-            <li>Sobre</li>
-            <a href="#styledCard">Portfolio</a>
+            <a href="styledHero" className="styledLinkHeader">Home</a>
+            <a href="#styledSocialContacts" className="styledLinkHeader">Redes Socias</a>
+            <a href="#styledContext" className="styledLinkHeader">Sobre</a>
+            <a href="#styledCard" className="styledLinkHeader">Portfolio</a>
           </ul>
           <button>
             <Link href="/contact">Contato</Link>
@@ -41,7 +39,7 @@ const header = () => {
         </nav>
       </div>
 
-      <div className="styledHero">
+      <div id="styledHero">
 
       <div className="container">
           <h1>Está procurando um site com design moderno e completo?</h1>

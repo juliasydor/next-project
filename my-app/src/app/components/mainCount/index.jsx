@@ -21,7 +21,7 @@ useEffect(() => {
 }, [isInView]);
 
     return (
-        <main className='styledMain' style={{
+        <main id='styledMain' style={{
             backgroundImage: `url('/background2.png')`,
             backgroundSize: 'cover',
             backgroundPosition: 'center',
