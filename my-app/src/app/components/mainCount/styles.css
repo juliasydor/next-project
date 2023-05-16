@@ -9,10 +9,6 @@ span {
     font-weight: bolder;
 }
 
-#styledMain p {
-    font-size: 25px;
-}
-
 #styledContext {
     font-size: 18px;
 }
@@ -52,4 +48,33 @@ span {
     display: flex;
     flex-direction: row;
     margin-left: 10px;
+}
+
+@media (max-width: 900px) {
+    .lottieClass {
+        display: none;
+    }
+
+    .styledLottie {
+        width: 100%;
+        display: flex;
+    }
+
+    .styledMain {
+        width: 100%;
+    }
+
+    .styledCounterContainer {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .styledContainer {
+        width: 100%;
+        margin: 0px 0px 0px 13%;
+    }
+
+    #styledContext p {
+        width: 100%;
+    }
 }

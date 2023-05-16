@@ -23,7 +23,7 @@
 }
 
 .styledSectionContainer textarea {
-    width: 60%;
+    width: 70%;
     resize: none;
     margin: 5px 0px 5px 0px;
     border-radius: 5px;
@@ -35,7 +35,7 @@
 }
 
 .styledSectionContainer input {
-    width: 60%;
+    width: 70%;
     border-radius: 5px;
     border: 1px solid #05de7d;
 
@@ -50,3 +50,22 @@
     font-weight: bolder;
     font-size: 35px;
 }
+
+@media (max-width:910px ) {
+    .lottieOrders {
+        display: none;
+    }
+
+    .styledSectionContainer {
+        margin: 0px;
+    }
+
+    .styledSectionContainer textarea {
+        width: 90%;
+    }
+
+    .styledSectionContainer input {
+        width: 90%;
+    }
+}
+

@@ -25,6 +25,7 @@ const LottieAnimation = () => {
       ref={containerRef}
       animate={{ scale: 0.7 }}
       transition={{ duration: 0.5, yoyo: Infinity }}
+      className="lottieOrders"
     />
   );
 };

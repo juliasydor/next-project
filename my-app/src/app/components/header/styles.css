@@ -136,3 +136,45 @@ a{
         font-size: 35px;
     }
 }
+
+@media (max-width: 870px) {
+    #styledHero {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+}
+
+@media (max-width: 750px) {
+    #styledHero {
+        height: 100%;
+    }
+
+    .styledHeaderContainer {
+        height: 500px;
+    }
+}
+
+@media (max-width: 550px) {
+    .container h1 {
+        font-size: 25px;
+        margin-top: 40px;
+    }
+
+    .container h2 {
+        font-size: 20px;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+    .container a {
+        width: 100%;
+    }
+
+    .container button {
+        width: 100%;
+    }
+}
