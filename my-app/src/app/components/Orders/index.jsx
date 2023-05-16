@@ -3,7 +3,7 @@ import css from './styled.css'
 
 const Orders = () => {
     return (
-        <article className="styledArticle">
+        <article id="styledArticleOrders">
             <section className="styledSectionContainer">
                 <h1><span className='styledSpan'>Peça</span> seu site aqui</h1>
                 <input type="text" placeholder="insira o seu email"/>

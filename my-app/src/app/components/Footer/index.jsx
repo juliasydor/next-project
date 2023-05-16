@@ -17,13 +17,19 @@ const Footer = () => {
                     <h2>social medias</h2>
                     <ul>
                         <li>
-                            <AiFillInstagram size={25} className='icons'/>
+                            <a href="https://www.youtube.com/" target={'_blank'}>
+                                <AiFillInstagram size={25} className='icons'/>
+                            </a>
                         </li>
                         <li>
-                            <IoLogoWhatsapp size={25} className='icons'/>
+                            <a href="https://www.instagram.com/" target={'_blank'}>
+                                <IoLogoWhatsapp size={25} className='icons'/>
+                            </a>
                         </li>
                         <li>
-                            <ImLinkedin size={25} className='icons'/>
+                            <a href="https://www.linkedin.com/in/marcelo-kodaira-de-almeida/" target={'_blank'}>
+                                <ImLinkedin size={25} className='icons'/>
+                            </a>
                         </li>
                     </ul>
                 </section>

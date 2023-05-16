@@ -28,7 +28,7 @@ const header = () => {
         <nav>
           <div>logo</div>
           <ul>
-            <a href="styledHero" className="styledLinkHeader">Home</a>
+            <a href="#" className="styledLinkHeader">Home</a>
             <a href="#styledSocialContacts" className="styledLinkHeader">Redes Socias</a>
             <a href="#styledContext" className="styledLinkHeader">Sobre</a>
             <a href="#styledCard" className="styledLinkHeader">Portfolio</a>
@@ -44,7 +44,7 @@ const header = () => {
       <div className="container">
           <h1>Está procurando um site com design moderno e completo?</h1>
           <h2>Aqui na Woodev temos o que você está procurando! Sites de todos os conteúdos e todos os preços</h2>
-          <button>Compre aqui</button>
+          <a href="#styleArticleOrders"><button>Compre aqui</button></a>
         </div>
 
         <img src="/ilustration.png" alt="ilustração" />
