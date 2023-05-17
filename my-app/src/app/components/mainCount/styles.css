@@ -9,6 +9,12 @@ span {
     font-weight: bolder;
 }
 
+.styledContainer {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
 #styledContext {
     font-size: 18px;
 }

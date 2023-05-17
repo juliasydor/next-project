@@ -5,7 +5,7 @@
     background: linear-gradient(30deg, rgba(32,194,129,1) 3%, rgba(29,139,253,1) 50%, rgba(34,23,196,1) 100%);
 }
 
-.styledContainer {
+.styledContainerFooter {
     display: flex;
     justify-content: space-around;
     text-align: center;
@@ -45,11 +45,26 @@
     align-items: center;
 }
 
-
-
 .icons:hover {
     color: #05de7d;
 }
 
+@media (max-width: 915px) {
+    .styledContacts {
+        display: none;
+    }
 
+    .styledContainerFooter {
+        display: flex;
+        margin: 0% 0% 0% 0%;
+
+    }
+
+    .styledSocialMedia {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+    }
+}
 
