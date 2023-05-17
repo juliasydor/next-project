@@ -2,9 +2,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import css from "./styles.css";
-
-
-
+import TbPhoneCall from 'react-icons/tb'
 
 
 const header = () => {
@@ -25,9 +23,9 @@ const header = () => {
   return (
     <div className="styledHeaderContainer">
       <div className={`styledHeader ${active ? 'active' : ''}`}>
-        <nav>
+        <nav className="navBar">
           <div>logo</div>
-          <ul>
+          <ul className="navList">
             <a href="#" className="styledLinkHeader">Home</a>
             <a href="#styledSocialContacts" className="styledLinkHeader">Redes Socias</a>
             <a href="#styledContext" className="styledLinkHeader">Sobre</a>
@@ -36,6 +34,11 @@ const header = () => {
           <button>
             <Link href="/contact">Contato</Link>
           </button>
+          <div className="styledNavMobile">
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
         </nav>
       </div>
 

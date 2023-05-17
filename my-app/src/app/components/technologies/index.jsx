@@ -3,7 +3,7 @@ import css from "./styles.css";
 
 const Technologies = () => {
   return (
-    <section className="styledSection">
+    <section className="styledSectionTech">
       <article className="styledTech">
         <div className="styledContainer">
           <div className="styledShape"></div>

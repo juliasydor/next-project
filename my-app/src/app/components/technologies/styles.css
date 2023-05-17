@@ -1,14 +1,16 @@
 
-.styledSection {
+.styledSectionTech {
     max-width: 90%;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-
-    @media (max-width: 920px) {
-        justify-content: center;
-    }
 } 
+
+@media (max-width: 920px) {
+    .styledSectionTech {
+    justify-content: center;
+    }
+}
 
 .styledContainer {
     padding-bottom: 45px;
@@ -124,19 +126,24 @@ background: linear-gradient(to right, #1cbe99 0%, #05de7d 100%);
 
 .styledTech{
     max-width: 33.33333%;
-    @media (max-width: 920px) {
-        max-width: 100%;
-    }
+}
+
+@media (max-width: 920px) {
+    .styledTech {
+    max-width: 100%
+};
 }
 
 .styledTechTwo {
     max-width: 33.33333%;
     margin-top: 128px;
     padding-top: 26.7px;
+}
 
-    @media (max-width: 920px) {
-        margin-top: 0;
-    }
+@media (max-width: 920px) {
+    .styledTechTwo {
+    margin-top: 0;
+}
 }
 
 .styledTech:hover .styledSeparator {
@@ -164,11 +171,14 @@ background: linear-gradient(to right, #1cbe99 0%, #05de7d 100%);
     position: absolute;
     bottom: 15px;
     left: 0;
+}
 
-    @media (max-width: 920px) {
-        top: unset;
-        bottom: 15px;
-    }
+
+@media (max-width: 920px) {
+    .styledSeparatorTwo {
+    top: unset;
+    bottom: 15px;
+    width: 100%;}
 }
 
 .styledSeparatorTwo::before{
@@ -208,6 +218,13 @@ background: linear-gradient(to right, #1cbe99 0%, #05de7d 100%);
     -ms-transition: all .3s linear;
     -o-transition: all .3s linear;
     transition: all .3s linear;
+}
+
+@media (max-width: 920px) {
+    .styledShapeTwo {
+    top: unset;
+    bottom: 6px;
+}
 }
 
 .styledShapeTwo::before{
