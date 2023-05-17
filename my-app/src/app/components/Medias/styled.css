@@ -16,3 +16,9 @@
     font-size: 30px;
 }
 
+@media (max-width: 550px) {
+    #styledSocialContacts {
+        display: none;
+    }
+}
+

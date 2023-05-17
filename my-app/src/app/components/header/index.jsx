@@ -35,9 +35,9 @@ const header = () => {
             <Link href="/contact">Contato</Link>
           </button>
           <div className="styledNavMobile">
-            <div></div>
-            <div></div>
-            <div></div>
+            <div className="barrer"></div>
+            <div className="barrer"></div>
+            <div className="barrer"></div>
           </div>
         </nav>
       </div>

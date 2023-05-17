@@ -48,7 +48,7 @@
 nav{
     display: flex;
     max-width: 80%;
-    margin: 0 auto;
+    margin: 10px auto;
     justify-content: space-between;
     align-items: center;
 }
@@ -169,7 +169,7 @@ a{
         height: 2px;
         width: 30px;
         margin: 4px 0px 2px 0px;
-        background-color: #fff;
+        background-color: #08f78b;
     }
 
 
@@ -217,5 +217,9 @@ a{
 
     .container button {
         width: 100%;
+    }
+
+    .styledHeaderContainer {
+        height: 100vh;
     }
 }
