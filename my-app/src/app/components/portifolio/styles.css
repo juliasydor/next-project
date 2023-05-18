@@ -16,7 +16,7 @@
 
 .styledList {
     display: grid;
-    grid-template-columns: repeat(3, minmax(20%, 2fr));
+    grid-template-columns: repeat(auto-fit, minmax(33%, 1fr));
     column-gap: 1rem;
     row-gap: 1rem;
     width: 100%;

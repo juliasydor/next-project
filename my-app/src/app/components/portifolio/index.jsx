@@ -2,7 +2,7 @@
 import { useEffect, useState } from 'react'
 import Card from './cards'
 import css from './styles.css'
-import {motion} from 'framer-motion'
+import {motion, AnimatePresence} from 'framer-motion'
 
 
 
@@ -66,11 +66,13 @@ function Projects() {
 
 
     <motion.div layout className='styledList'>
+    <AnimatePresence>
       {
         filtradas.map((item,index) =>(
           <Card key={index} item={item}/>
         ))
       }
+    </AnimatePresence>
     </motion.div>
     
 
