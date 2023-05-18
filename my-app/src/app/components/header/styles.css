@@ -8,9 +8,29 @@
 }
 
 #styledHero img {
-    scale: 1.2;
+    scale: 1.5;
     margin-top: 90px;
-}
+    position: relative;
+    top: 56%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    animation-name: float;
+    animation-duration: 3s; 
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+  
+  @keyframes float {
+    0% {
+      transform: translate(-50%, -50%);
+    }
+    50% {
+      transform: translate(-50%, -70%); 
+    }
+    100% {
+      transform: translate(-50%, -50%);
+    }
+  }
 
 .styledHeaderContainer {
     width: 100%;
@@ -137,8 +157,17 @@ a{
     height: 100px;
 }
 
+@media (max-width: 1120px) {
+    #styledHero img {
+        scale: 1.2;
+        top: 50%;
+        left: 20%;
+    }
+}
+
 @media (max-width: 1010px) {
     
+
     img {
         display: none;
     }
