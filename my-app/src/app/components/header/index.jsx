@@ -2,7 +2,6 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import css from "./styles.css";
-import TbPhoneCall from 'react-icons/tb'
 
 
 const header = () => {
@@ -32,7 +31,7 @@ const header = () => {
             <a href="#styledCard" className="styledLinkHeader">Portfolio</a>
           </ul>
           <button>
-            <Link href="/contact">Contato</Link>
+            <Link href="/ContactPage">Contato</Link>
           </button>
           <div className="styledNavMobile">
             <div className="barrer"></div>
@@ -50,7 +49,7 @@ const header = () => {
           <a href="#styleArticleOrders"><button>Compre aqui</button></a>
         </div>
 
-        <img src="/ilustration.png" alt="ilustração" />
+        <img src="/ilustration2.png" alt="ilustração" className="imgHeaderHero"/>
       </div>
     </div>
   );
