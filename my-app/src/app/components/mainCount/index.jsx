@@ -38,8 +38,6 @@ useEffect(() => {
                         <motion.div className='styledCounter'>{rounded}</motion.div> <span>+</span>
                         
                     </div>
-                    <div className='styledPContainer'>
-                    </div>
                 </div>
             </div>
         </main>

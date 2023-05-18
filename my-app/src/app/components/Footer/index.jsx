@@ -43,7 +43,7 @@ const Footer = () => {
                 </section>    
             </div>
             <section className="styledCredits">
-                    <h3>designed by wooDev</h3>
+                    <h4>designed by wooDev</h4>
                     <ScrollToTopButton />
                 </section>
         </footer>

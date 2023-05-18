@@ -24,7 +24,7 @@ const header = () => {
     <div className="styledHeaderContainer">
       <div className={`styledHeader ${active ? 'active' : ''}`}>
         <nav className="navBar">
-          <div>logo</div>
+          <img src="/logo.png" alt="logo" className="logo"/>
           <ul className="navList">
             <a href="#" className="styledLinkHeader">Home</a>
             <a href="#styledSocialContacts" className="styledLinkHeader">Redes Socias</a>
