@@ -7,7 +7,7 @@
 
 }
 
-#styledHero img {
+#principal {
     scale: 1.5;
     margin-top: 90px;
     position: relative;
@@ -15,7 +15,7 @@
     left: 20%;
     transform: translate(-50%, -50%);
     animation-name: float;
-    animation-duration: 3s; 
+    animation-duration: 4s; 
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
   }
@@ -165,7 +165,7 @@ a{
 }
 
 @media (max-width: 1120px) {
-    #styledHero img {
+    #principal {
         scale: 1.2;
         top: 50%;
         left: 20%;
@@ -256,13 +256,7 @@ a{
 @media (max-width: 550px) {
     .container h1 {
         font-size: 30px;
-        margin-top: 40px;
         text-align: left;
-    }
-
-    #mobile {
-        display: flex;
-        justify-content: center;
     }
 
     .container h2 {
@@ -282,7 +276,32 @@ a{
         width: 100%;
     }
 
+    #styledHero {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     .styledHeaderContainer {
-        height: 95vh;
+        height: 110vh;
+    }
+}
+
+@media (max-width: 510px) {
+    #mobile {
+        display: inline-block;
+        scale: 0.9;
+        position: relative;
+        top: 23.5%;
+        left: 10%;
+        transform: translate(-50%, -50%);
+        animation-name: float;
+        animation-duration: 4s; 
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+    }
+
+    .container h1 {
+        margin-top: 150px;
     }
 }

@@ -49,9 +49,10 @@ const header = () => {
           <a href="#styleArticleOrders"><button>Compre aqui</button></a>
         </div>
 
-        <img src="/ilustration2.png" alt="ilustração" className="imgHeaderHero"/>
+        <img id="principal" src="/ilustration2.png" alt="ilustração" className="imgHeaderHero"/>
+        <img id="mobile" src="/ilustration2.png" alt="ilustração" className="imgHeaderHero"/>
       </div>
-      <img id="mobile" src="/ilustration2.png" alt="ilustração" className="imgHeaderHero"/>
+   
     </div>
   );
 };
