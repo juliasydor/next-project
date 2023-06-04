@@ -51,6 +51,7 @@ const header = () => {
 
         <img src="/ilustration2.png" alt="ilustração" className="imgHeaderHero"/>
       </div>
+      <img id="mobile" src="/ilustration2.png" alt="ilustração" className="imgHeaderHero"/>
     </div>
   );
 };
