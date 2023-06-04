@@ -290,9 +290,9 @@ a{
 @media (max-width: 510px) {
     #mobile {
         display: inline-block;
-        scale: 0.9;
+        scale: 1.0;
         position: relative;
-        top: 23.5%;
+        top: 24%;
         left: 10%;
         transform: translate(-50%, -50%);
         animation-name: float;
