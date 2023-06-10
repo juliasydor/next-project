@@ -1,5 +1,6 @@
 'use client'
 import { useState, useEffect } from "react";
+import React from "react";
 import Link from "next/link";
 import css from "./styles.css";
 
@@ -31,7 +32,7 @@ const header = () => {
             <a href="#styledCard" className="styledLinkHeader">Portfolio</a>
           </ul>
           <button>
-            <Link href="/ContactPage">Contato</Link>
+            <Link href="/contact" target={"_blank"}>Contato</Link>
           </button>
           <div className="styledNavMobile">
             <div className="barrer"></div>
