@@ -1,9 +1,11 @@
 body {
-    background-image: url("/cool-background.png");
+    background-image: url("/coolbg.png");
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     display: flex;
     justify-content: center;
+    overflow-y: hidden;
 }
 
 #mainContactPage {

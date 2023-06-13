@@ -1,5 +1,6 @@
 import React from 'react'
 import css from './styles.css'
+import contactUs from './lottie'
 
 const ContactPage = () => {
   return (
@@ -17,7 +18,7 @@ const ContactPage = () => {
               </form>
           </div>
           <div className='ilustrationContactPage'>
-          <img src="/contact.png" alt="ilustração" id="imgContactPage" />
+            <contactUs />
           </div>
         </div>
       </main>

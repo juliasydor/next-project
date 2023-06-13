@@ -32,15 +32,7 @@ const Footer = () => {
                             </a>
                         </li>
                     </ul>
-                </section>
-                <section className="styledContacts">
-                    <h2>contact Us</h2>
-                    <ul>
-                        <li>1199999999999</li>
-                        <li>julia@gmail.com</li>
-                        <li>@juliasydor</li>
-                    </ul>
-                </section>    
+                </section>   
             </div>
             <section className="styledCredits">
                     <h4>designed by wooDev</h4>

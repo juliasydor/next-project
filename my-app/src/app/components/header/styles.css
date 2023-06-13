@@ -292,11 +292,11 @@ a{
         display: inline-block;
         scale: 1.0;
         position: relative;
-        top: 24%;
+        top: 28%;
         left: 10%;
         transform: translate(-50%, -50%);
         animation-name: float;
-        animation-duration: 4s; 
+        animation-duration: 5s; 
         animation-iteration-count: infinite;
         animation-timing-function: ease-in-out;
     }
