@@ -54,8 +54,14 @@ body {
     border: 1px solid rgba(0, 0, 0, 0.384);
 }
 
-.ContactInput:hover {
+.ContactInput {
     background-color: rgba(54, 63, 63, 0.219);
+    border: 1px solid rgba(0, 0, 0, 0.158);
+    color: aliceblue;
+}
+
+.ContactInput:hover {
+    background-color: rgba(54, 63, 63, 0.308);
     border: 1px solid rgba(0, 0, 0, 0.158);
 }
 
@@ -78,8 +84,14 @@ input[type=number]::-webkit-outer-spin-button {
     border: 1px solid rgba(0, 0, 0, 0.384);
 }
 
-#contactTextArea:hover {
+#contactTextArea {
     background-color: rgba(54, 63, 63, 0.219);
+    border: 1px solid rgba(0, 0, 0, 0.158);
+    color: aliceblue;
+}
+
+#contactTextArea:hover {
+    background-color: rgba(54, 63, 63, 0.308);
     border: 1px solid rgba(0, 0, 0, 0.158);
 }
 
